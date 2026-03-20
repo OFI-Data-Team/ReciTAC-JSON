@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index of /data</title>
+    <style>
+      :root {
+        font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        background: #f3f5f7;
+        color: #111827;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem 2rem;
+      }
+
+      .panel {
+        background: #ffffff;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+
+      header {
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid #d1d5db;
+        background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+      }
+
+      h1 {
+        margin: 0 0 0.35rem;
+        font-size: 1.4rem;
+      }
+
+      p {
+        margin: 0;
+        color: #4b5563;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 0.8rem 1.25rem;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      th {
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #6b7280;
+        background: #f9fafb;
+      }
+
+      tbody tr:hover {
+        background: #f9fafb;
+      }
+
+      a {
+        color: #0f766e;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .empty,
+      .error {
+        padding: 1rem 1.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="panel">
+        <header>
+          <h1>Index of /data</h1>
+          <p>Static files and folders published from the repository web root.</p>
+        </header>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Path</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody id="file-list">
+            <tr>
+              <td colspan="3">Loading…</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div id="empty" class="empty hidden">No files found under <code>/data</code>.</div>
+        <div id="error" class="error hidden"></div>
+      </div>
+    </main>
+
+    <script>
+      const fileList = document.getElementById("file-list");
+      const empty = document.getElementById("empty");
+      const error = document.getElementById("error");
+      const getFileType = (entryPath, entryType) => {
+        if (entryType === "directory") {
+          return "directory";
+        }
+
+        const lower = entryPath.toLowerCase();
+        const ext = lower.includes(".") ? lower.split(".").pop() : "";
+
+        if (!ext) {
+          return "file";
+        }
+
+        const knownTypes = {
+          json: "application/json",
+          txt: "text/plain",
+          md: "text/markdown",
+          csv: "text/csv",
+          tsv: "text/tab-separated-values",
+          html: "text/html",
+          xml: "application/xml",
+          yaml: "application/yaml",
+          yml: "application/yaml",
+          zip: "application/zip",
+          pdf: "application/pdf",
+          png: "image/png",
+          jpg: "image/jpeg",
+          jpeg: "image/jpeg",
+          gif: "image/gif",
+          webp: "image/webp"
+        };
+
+        return knownTypes[ext] || `file/${ext}`;
+      };
+
+      const showError = (message) => {
+        fileList.innerHTML = "";
+        error.textContent = message;
+        error.classList.remove("hidden");
+      };
+
+      fetch("./data/index.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+
+          return response.json();
+        })
+        .then((entries) => {
+          fileList.innerHTML = "";
+
+          if (!Array.isArray(entries) || entries.length === 0) {
+            empty.classList.remove("hidden");
+            return;
+          }
+
+          for (const entry of entries) {
+            if (!entry || !entry.path || !entry.type) {
+              continue;
+            }
+
+            const row = document.createElement("tr");
+            const nameCell = document.createElement("td");
+            const pathCell = document.createElement("td");
+            const typeCell = document.createElement("td");
+            const depth = entry.path.split("/").length - 1;
+            const displayName = entry.path.split("/").pop();
+
+            nameCell.style.paddingLeft = `${1.25 + depth * 1.25}rem`;
+
+            if (entry.type === "directory") {
+              nameCell.textContent = `${displayName}/`;
+            } else {
+              const link = document.createElement("a");
+              link.href = `./data/${entry.path}`;
+              link.textContent = displayName;
+              nameCell.appendChild(link);
+            }
+
+            pathCell.textContent = `/data/${entry.path}`;
+            typeCell.textContent = getFileType(entry.path, entry.type);
+            row.appendChild(nameCell);
+            row.appendChild(pathCell);
+            row.appendChild(typeCell);
+            fileList.appendChild(row);
+          }
+        })
+        .catch((err) => {
+          showError(`Failed to load data index: ${err.message}`);
+        });
+    </script>
+  </body>
+</html>

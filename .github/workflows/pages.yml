@@ -1,0 +1,72 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Prepare publish directory
+        run: |
+          mkdir -p dist
+          cp -R public/. dist/
+
+      - name: Generate data manifest
+        run: |
+          mkdir -p dist/data
+          entries=$(find dist/data \
+            \( -type d -o -type f \) \
+            ! -path 'dist/data' \
+            ! -name 'index.json' \
+            ! -name '.DS_Store' \
+            -print | LC_ALL=C sort)
+          {
+            printf '[\n'
+            first=1
+            for entry in $entries; do
+              rel_path=${entry#dist/data/}
+              if [ -d "$entry" ]; then
+                entry_type=directory
+              else
+                entry_type=file
+              fi
+              if [ "$first" -eq 0 ]; then
+                printf ',\n'
+              fi
+              printf '  {"path":"%s","type":"%s"}' "$rel_path" "$entry_type"
+              first=0
+            done
+            printf '\n]\n'
+          } > dist/data/index.json
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

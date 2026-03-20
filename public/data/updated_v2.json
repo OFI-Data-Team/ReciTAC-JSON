@@ -1,0 +1,4474 @@
+{
+  "metadata": {
+    "generation_time": "2026-03-19T13:28:52.506511+00:00"
+  },
+  "nodes": {
+    "university": [
+      {
+        "unique_id": "id_univ_1",
+        "univName": {
+          "en": "UQAR",
+          "fr": "UQAR"
+        }
+      },
+      {
+        "unique_id": "id_univ_2",
+        "univName": {
+          "en": "UQAR",
+          "fr": "UQAR"
+        }
+      },
+      {
+        "unique_id": "id_univ_3",
+        "univName": {
+          "en": "UQAR",
+          "fr": "UQAR"
+        }
+      },
+      {
+        "unique_id": "id_univ_4",
+        "univName": {
+          "en": "UQAR",
+          "fr": "UQAR"
+        }
+      }
+    ],
+    "division": [
+      {
+        "unique_id": "id_division_1",
+        "divisionName": {
+          "en": "Natural sciences",
+          "fr": "Sciences de la nature"
+        },
+        "divisionNameShort": {
+          "en": "Natural sciences",
+          "fr": "Sciences de la nature"
+        }
+      },
+      {
+        "unique_id": "id_division_2",
+        "divisionName": {
+          "en": "Engineering and technology",
+          "fr": "Génie et technologie"
+        },
+        "divisionNameShort": {
+          "en": "Engineering",
+          "fr": "Génie"
+        }
+      },
+      {
+        "unique_id": "id_division_3",
+        "divisionName": {
+          "en": "Medical and health sciences",
+          "fr": "Médecine et sciences de la santé"
+        },
+        "divisionNameShort": {
+          "en": "Health",
+          "fr": "Santé"
+        }
+      },
+      {
+        "unique_id": "id_division_4",
+        "divisionName": {
+          "en": "Agricultural and veterinary sciences",
+          "fr": "Pêche et aquaculture"
+        },
+        "divisionNameShort": {
+          "en": "Fisheries",
+          "fr": "Pêche"
+        }
+      },
+      {
+        "unique_id": "id_division_5",
+        "divisionName": {
+          "en": "Social sciences",
+          "fr": "Sciences sociales"
+        },
+        "divisionNameShort": {
+          "en": "Social Sciences",
+          "fr": "Sciences sociales"
+        }
+      },
+      {
+        "unique_id": "id_division_6",
+        "divisionName": {
+          "en": "Humanities and the arts",
+          "fr": "Sciences humaines"
+        },
+        "divisionNameShort": {
+          "en": "Humanities",
+          "fr": "Sciences humaines"
+        }
+      }
+    ],
+    "discipline": [
+      {
+        "unique_id": "id_discipline_101",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Mathematics and statistics"
+        }
+      },
+      {
+        "unique_id": "id_discipline_102",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Computer and information sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_103",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Physical sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_104",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Chemical sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_105",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Earth and related environmental sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_106",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Biological sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_107",
+        "divisionName": {
+          "en": "Natural sciences"
+        },
+        "groupName": {
+          "en": "Other natural sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_201",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Civil engineering, maritime engineering, transport engineering, and mining engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_202",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Industrial, systems and processes engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_203",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Electrical engineering, computer engineering, and information engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_204",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Mechanical engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_205",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Chemical engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_206",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Materials engineering and resources engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_207",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Medical and biomedical engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_208",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Environmental engineering and related engineering"
+        }
+      },
+      {
+        "unique_id": "id_discipline_209",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Environmental biotechnology"
+        }
+      },
+      {
+        "unique_id": "id_discipline_210",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Industrial biotechnology"
+        }
+      },
+      {
+        "unique_id": "id_discipline_211",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Nano-technology"
+        }
+      },
+      {
+        "unique_id": "id_discipline_212",
+        "divisionName": {
+          "en": "Engineering and technology"
+        },
+        "groupName": {
+          "en": "Other engineering and technologies"
+        }
+      },
+      {
+        "unique_id": "id_discipline_301",
+        "divisionName": {
+          "en": "Medical and health sciences"
+        },
+        "groupName": {
+          "en": "Basic medicine and life sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_302",
+        "divisionName": {
+          "en": "Medical and health sciences"
+        },
+        "groupName": {
+          "en": "Clinical medicine"
+        }
+      },
+      {
+        "unique_id": "id_discipline_303",
+        "divisionName": {
+          "en": "Medical and health sciences"
+        },
+        "groupName": {
+          "en": "Health sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_304",
+        "divisionName": {
+          "en": "Medical and health sciences"
+        },
+        "groupName": {
+          "en": "Medical biotechnology"
+        }
+      },
+      {
+        "unique_id": "id_discipline_305",
+        "divisionName": {
+          "en": "Medical and health sciences"
+        },
+        "groupName": {
+          "en": "Other medical  sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_401",
+        "divisionName": {
+          "en": "Agricultural and veterinary sciences"
+        },
+        "groupName": {
+          "en": "Agriculture, forestry, and fisheries"
+        }
+      },
+      {
+        "unique_id": "id_discipline_402",
+        "divisionName": {
+          "en": "Agricultural and veterinary sciences"
+        },
+        "groupName": {
+          "en": "Animal and dairy sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_403",
+        "divisionName": {
+          "en": "Agricultural and veterinary sciences"
+        },
+        "groupName": {
+          "en": "Veterinary sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_404",
+        "divisionName": {
+          "en": "Agricultural and veterinary sciences"
+        },
+        "groupName": {
+          "en": "Agricultural biotechnology and food sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_405",
+        "divisionName": {
+          "en": "Agricultural and veterinary sciences"
+        },
+        "groupName": {
+          "en": "Other agricultural sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_501",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Psychology and cognitive sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_502",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Economics and business administration"
+        }
+      },
+      {
+        "unique_id": "id_discipline_503",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Education"
+        }
+      },
+      {
+        "unique_id": "id_discipline_504",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Sociology and related studies"
+        }
+      },
+      {
+        "unique_id": "id_discipline_505",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Law and legal practice"
+        }
+      },
+      {
+        "unique_id": "id_discipline_506",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Political science and policy administration"
+        }
+      },
+      {
+        "unique_id": "id_discipline_507",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Social and economic geography"
+        }
+      },
+      {
+        "unique_id": "id_discipline_508",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Media and communications"
+        }
+      },
+      {
+        "unique_id": "id_discipline_509",
+        "divisionName": {
+          "en": "Social sciences"
+        },
+        "groupName": {
+          "en": "Other social sciences"
+        }
+      },
+      {
+        "unique_id": "id_discipline_601",
+        "divisionName": {
+          "en": "Humanities and the arts"
+        },
+        "groupName": {
+          "en": "History, archaeology and related studies"
+        }
+      },
+      {
+        "unique_id": "id_discipline_602",
+        "divisionName": {
+          "en": "Humanities and the arts"
+        },
+        "groupName": {
+          "en": "Languages and literature"
+        }
+      },
+      {
+        "unique_id": "id_discipline_603",
+        "divisionName": {
+          "en": "Humanities and the arts"
+        },
+        "groupName": {
+          "en": "Philosophy"
+        }
+      },
+      {
+        "unique_id": "id_discipline_604",
+        "divisionName": {
+          "en": "Humanities and the arts"
+        },
+        "groupName": {
+          "en": "Arts (arts, history of arts, performing arts, music), architecture and design"
+        }
+      },
+      {
+        "unique_id": "id_discipline_605",
+        "divisionName": {
+          "en": "Humanities and the arts"
+        },
+        "groupName": {
+          "en": "Other humanities"
+        }
+      }
+    ],
+    "people": [
+      {
+        "unique_id": "id_people_1",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_2",
+        "status": {
+          "en": "Master",
+          "fr": "Étudiant·e à la maitrise"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_3",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_4",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_5",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_6",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_7",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_8",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_9",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_10",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_11",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_12",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_13",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_14",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_15",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_16",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_17",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_18",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_19",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_20",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_21",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_22",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_23",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_24",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_25",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_26",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_27",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_28",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_29",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_30",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_31",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_32",
+        "status": {
+          "en": "PhD",
+          "fr": "Étudiant·e au doctorat"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_33",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_34",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_35",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_36",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_37",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_38",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_39",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_40",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_41",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_42",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_43",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_44",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_45",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_46",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_47",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_48",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_49",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_50",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_51",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_52",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_53",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_54",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_55",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_56",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_57",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_58",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_59",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_60",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_61",
+        "status": {
+          "en": "Master",
+          "fr": "Étudiant·e à la maitrise"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_62",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_63",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_64",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_65",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_66",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_67",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_68",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_69",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_70",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_71",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_72",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_73",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_74",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_75",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_76",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_77",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_78",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_79",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_80",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_81",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_82",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_83",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_84",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_85",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_86",
+        "status": {
+          "en": "PhD",
+          "fr": "Étudiant·e au doctorat"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_87",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_88",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_89",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_90",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_91",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_92",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_93",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_94",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_95",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_96",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_97",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_98",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_99",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_100",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_101",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_102",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_103",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_104",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_105",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_106",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_107",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_108",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_109",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_110",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_111",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_112",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_113",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_114",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_115",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_116",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_117",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_118",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_119",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_120",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_121",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_122",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_123",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_124",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_125",
+        "status": {
+          "en": "Master",
+          "fr": "Étudiant·e à la maitrise"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_126",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_127",
+        "status": {
+          "en": "Master",
+          "fr": "Étudiant·e à la maitrise"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_128",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_129",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_130",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_131",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_132",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_133",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_134",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_135",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_136",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_137",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_138",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_139",
+        "status": {
+          "en": "PhD",
+          "fr": "Étudiant·e au doctorat"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_140",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_141",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_142",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_143",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_144",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_145",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_146",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_147",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_148",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_149",
+        "status": {
+          "en": "Master",
+          "fr": "Étudiant·e à la maitrise"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_150",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_151",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_152",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_153",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_154",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_155",
+        "status": {
+          "en": "Master",
+          "fr": "Étudiant·e à la maitrise"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_156",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_157",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_158",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_159",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_160",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_161",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_162",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_163",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_164",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_165",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_166",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_167",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_168",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_169",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_170",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_171",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_172",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_173",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_174",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_175",
+        "status": {
+          "en": "PhD",
+          "fr": "Étudiant·e au doctorat"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_176",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_177",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_178",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_179",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_180",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_181",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_182",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_183",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_184",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_185",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_186",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_187",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_188",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_189",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_190",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_191",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_192",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_193",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_194",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_195",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_196",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_197",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_198",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_199",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_200",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_201",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_202",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_203",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_204",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_205",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_206",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_207",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_208",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_209",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_210",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_211",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_212",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_213",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_214",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_215",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_216",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_217",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_218",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_219",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_220",
+        "status": {
+          "en": "PostDoc",
+          "fr": "Personnel postdoctorant"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_221",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_222",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_223",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_224",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_225",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_226",
+        "status": {
+          "en": "HQP",
+          "fr": "Personnel professionnel"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_227",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_228",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_229",
+        "status": {
+          "en": "Under Graduate",
+          "fr": "Étudiant·e au baccalauréat"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_230",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_231",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_232",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      },
+      {
+        "unique_id": "id_people_233",
+        "status": {
+          "en": "PhD",
+          "fr": "Étudiant·e au doctorat"
+        },
+        "function": {
+          "en": "student",
+          "fr": "étudiant·e"
+        }
+      },
+      {
+        "unique_id": "id_people_234",
+        "status": {
+          "en": "Researcher",
+          "fr": "Personnel scientifique"
+        },
+        "function": {
+          "en": "employee",
+          "fr": "employé·e"
+        }
+      }
+    ],
+    "partner": [
+      {
+        "unique_id": "id_partner_1",
+        "partnerName": {
+          "en": "academic and research institutions in Canada (including research hospitals)"
+        }
+      },
+      {
+        "unique_id": "id_partner_2",
+        "partnerName": {
+          "en": "academic and research institutions abroad (including research hospitals)"
+        }
+      },
+      {
+        "unique_id": "id_partner_3",
+        "partnerName": {
+          "en": "Community-based interest groups in Canada"
+        }
+      },
+      {
+        "unique_id": "id_partner_4",
+        "partnerName": {
+          "en": "Community-based interest groups abroad"
+        }
+      },
+      {
+        "unique_id": "id_partner_5",
+        "partnerName": {
+          "en": "Other canadian research institutions (inclusing research hospitals)"
+        }
+      },
+      {
+        "unique_id": "id_partner_6",
+        "partnerName": {
+          "en": "Individuals from the lead institution"
+        }
+      },
+      {
+        "unique_id": "id_partner_7",
+        "partnerName": {
+          "en": "Individuals from other canadian academic institutions"
+        }
+      },
+      {
+        "unique_id": "id_partner_8",
+        "partnerName": {
+          "en": "Philanthropic/not-for-profit/other within Canada"
+        }
+      },
+      {
+        "unique_id": "id_partner_9",
+        "partnerName": {
+          "en": "Philanthropic/not-for-profit/other abroad"
+        }
+      },
+      {
+        "unique_id": "id_partner_10",
+        "partnerName": {
+          "en": "Private sector in Canada"
+        }
+      },
+      {
+        "unique_id": "id_partner_11",
+        "partnerName": {
+          "en": "Private sector aborad"
+        }
+      },
+      {
+        "unique_id": "id_partner_12",
+        "partnerName": {
+          "en": "Public / Para-public sector in Canada"
+        }
+      },
+      {
+        "unique_id": "id_partner_13",
+        "partnerName": {
+          "en": "Public / Para-public sector abroad"
+        }
+      },
+      {
+        "unique_id": "id_partner_14",
+        "partnerName": {
+          "en": "Indigenous individual/Indigenous community within Canada",
+          "fr": "Communauté ou personne des Premiers Peuples au Canada"
+        }
+      }
+    ],
+    "topic": [
+      {
+        "unique_id": "id_topic_1",
+        "topicName": {
+          "en": "Education for empowerment",
+          "fr": "Pouvoir-agir par l'éducation"
+        },
+        "actionName": {
+          "en": "Educate | Train",
+          "fr": "Éduquer | Former"
+        }
+      },
+      {
+        "unique_id": "id_topic_2",
+        "topicName": {
+          "en": "Knowledge mobilization",
+          "fr": "Mobilisation des connaissances"
+        },
+        "actionName": {
+          "en": "Educate | Train",
+          "fr": "Éduquer | Former"
+        }
+      },
+      {
+        "unique_id": "id_topic_3",
+        "topicName": {
+          "en": "Ocean and climate literacy",
+          "fr": "Littératie océanique et climatique"
+        },
+        "actionName": {
+          "en": "Educate | Train",
+          "fr": "Éduquer | Former"
+        }
+      },
+      {
+        "unique_id": "id_topic_4",
+        "topicName": {
+          "en": "Public policy",
+          "fr": "Politique publique"
+        },
+        "actionName": {
+          "en": "Dialogue | Advocate",
+          "fr": "Dialoguer | Plaider"
+        }
+      },
+      {
+        "unique_id": "id_topic_5",
+        "topicName": {
+          "en": "Truth and reconciliation",
+          "fr": "Vérité et réconciliation"
+        },
+        "actionName": {
+          "en": "Dialogue | Advocate",
+          "fr": "Dialoguer | Plaider"
+        }
+      },
+      {
+        "unique_id": "id_topic_6",
+        "topicName": {
+          "en": "Climate Justice",
+          "fr": "Justice climatique"
+        },
+        "actionName": {
+          "en": "Dialogue | Advocate",
+          "fr": "Dialoguer | Plaider"
+        }
+      },
+      {
+        "unique_id": "id_topic_7",
+        "topicName": {
+          "en": "Historical perspective",
+          "fr": "Perspective historique"
+        },
+        "actionName": {
+          "en": "Create | Conserve",
+          "fr": "Créer | Conserver"
+        }
+      },
+      {
+        "unique_id": "id_topic_8",
+        "topicName": {
+          "en": "Art and culture",
+          "fr": "Arts et culture"
+        },
+        "actionName": {
+          "en": "Create | Conserve",
+          "fr": "Créer | Conserver"
+        }
+      },
+      {
+        "unique_id": "id_topic_9",
+        "topicName": {
+          "en": "Conservation and stewardship",
+          "fr": "Conservation et gestion"
+        },
+        "actionName": {
+          "en": "Create | Conserve",
+          "fr": "Créer | Conserver"
+        }
+      },
+      {
+        "unique_id": "id_topic_10",
+        "topicName": {
+          "en": "Capacity building",
+          "fr": "Renforcement des capacités"
+        },
+        "actionName": {
+          "en": "Adapt | Mitigate",
+          "fr": "Adapter | Atténuer"
+        }
+      },
+      {
+        "unique_id": "id_topic_11",
+        "topicName": {
+          "en": "Climate mitigation",
+          "fr": "Atténuation des GES"
+        },
+        "actionName": {
+          "en": "Adapt | Mitigate",
+          "fr": "Adapter | Atténuer"
+        }
+      },
+      {
+        "unique_id": "id_topic_12",
+        "topicName": {
+          "en": "Community adaptation",
+          "fr": "Adaptation des communautés"
+        },
+        "actionName": {
+          "en": "Adapt | Mitigate",
+          "fr": "Adapter | Atténuer"
+        }
+      },
+      {
+        "unique_id": "id_topic_13",
+        "topicName": {
+          "en": "Coordinated data collection",
+          "fr": "Mutualisation de données"
+        },
+        "actionName": {
+          "en": "Innovate | Share",
+          "fr": "Innover | Partager"
+        }
+      },
+      {
+        "unique_id": "id_topic_14",
+        "topicName": {
+          "en": "Social innovation",
+          "fr": "Innovation sociale"
+        },
+        "actionName": {
+          "en": "Innovate | Share",
+          "fr": "Innover | Partager"
+        }
+      },
+      {
+        "unique_id": "id_topic_15",
+        "topicName": {
+          "en": "Action research",
+          "fr": "Recherche action"
+        },
+        "actionName": {
+          "en": "Innovate | Share",
+          "fr": "Innover | Partager"
+        }
+      },
+      {
+        "unique_id": "id_topic_16",
+        "topicName": {
+          "en": "Ocean processes",
+          "fr": "Processus océaniques"
+        },
+        "actionName": {
+          "en": "Discover | Describe",
+          "fr": "Découvrir | Décrire"
+        }
+      },
+      {
+        "unique_id": "id_topic_17",
+        "topicName": {
+          "en": "Marine life",
+          "fr": "Vie marine"
+        },
+        "actionName": {
+          "en": "Discover | Describe",
+          "fr": "Découvrir | Décrire"
+        }
+      },
+      {
+        "unique_id": "id_topic_18",
+        "topicName": {
+          "en": "Knowledge synthesis",
+          "fr": "Synthèse des connaissances"
+        },
+        "actionName": {
+          "en": "Discover | Describe",
+          "fr": "Découvrir | Décrire"
+        }
+      },
+      {
+        "unique_id": "id_topic_19",
+        "topicName": {
+          "en": "Uncertainty and risk",
+          "fr": "Risque et incertitude"
+        },
+        "actionName": {
+          "en": "Precise | Predict",
+          "fr": "Préciser | Prédire"
+        }
+      },
+      {
+        "unique_id": "id_topic_20",
+        "topicName": {
+          "en": "Monitoring and forecasting",
+          "fr": "Suivi et prévision"
+        },
+        "actionName": {
+          "en": "Precise | Predict",
+          "fr": "Préciser | Prédire"
+        }
+      },
+      {
+        "unique_id": "id_topic_21",
+        "topicName": {
+          "en": "Model development",
+          "fr": "Modélisation"
+        },
+        "actionName": {
+          "en": "Precise | Predict",
+          "fr": "Préciser | Prédire"
+        }
+      }
+    ],
+    "impact": [
+      {
+        "unique_id": "id_impact_1",
+        "impactName": {
+          "en": "Joy!",
+          "fr": "Joie!"
+        },
+        "actionName": {
+          "en": "Feel",
+          "fr": "Ressentir"
+        }
+      },
+      {
+        "unique_id": "id_impact_2",
+        "impactName": {
+          "en": "Hope!",
+          "fr": "Espoir!"
+        },
+        "actionName": {
+          "en": "Feel",
+          "fr": "Ressentir"
+        }
+      },
+      {
+        "unique_id": "id_impact_3",
+        "impactName": {
+          "en": "Open and accessible knowledge",
+          "fr": "Connaissances ouvertes et accessibles"
+        },
+        "actionName": {
+          "en": "Know",
+          "fr": "Connaître"
+        }
+      },
+      {
+        "unique_id": "id_impact_4",
+        "impactName": {
+          "en": "Enhanced literacies",
+          "fr": "Littératie améliorée"
+        },
+        "actionName": {
+          "en": "Know",
+          "fr": "Connaître"
+        }
+      },
+      {
+        "unique_id": "id_impact_5",
+        "impactName": {
+          "en": "Enriched curricula",
+          "fr": "Programmes d'études enrichis"
+        },
+        "actionName": {
+          "en": "Know",
+          "fr": "Connaître"
+        }
+      },
+      {
+        "unique_id": "id_impact_6",
+        "impactName": {
+          "en": "Trust in reciprocity",
+          "fr": "Réciprocité en confiance"
+        },
+        "actionName": {
+          "en": "Trust",
+          "fr": "Faire confiance"
+        }
+      },
+      {
+        "unique_id": "id_impact_7",
+        "impactName": {
+          "en": "Just Public policies",
+          "fr": "Poltiques publiques justes"
+        },
+        "actionName": {
+          "en": "Trust",
+          "fr": "Faire confiance"
+        }
+      },
+      {
+        "unique_id": "id_impact_8",
+        "impactName": {
+          "en": "Increased sense of agency",
+          "fr": "Sentiment accru d'agentivité"
+        },
+        "actionName": {
+          "en": "Move",
+          "fr": "Battre l'apathie"
+        }
+      },
+      {
+        "unique_id": "id_impact_9",
+        "impactName": {
+          "en": "Empowered actors",
+          "fr": "Pourvoir-agir accru"
+        },
+        "actionName": {
+          "en": "Move",
+          "fr": "Battre l'apathie"
+        }
+      },
+      {
+        "unique_id": "id_impact_10",
+        "impactName": {
+          "en": "International solidarity",
+          "fr": "Solidarité entre les nations"
+        },
+        "actionName": {
+          "en": "Move",
+          "fr": "Battre l'apathie"
+        }
+      },
+      {
+        "unique_id": "id_impact_11",
+        "impactName": {
+          "en": "Thriving communities",
+          "fr": "Communautés prospères"
+        },
+        "actionName": {
+          "en": "Develop",
+          "fr": "Grandir"
+        }
+      },
+      {
+        "unique_id": "id_impact_12",
+        "impactName": {
+          "en": "Redistributed wealth",
+          "fr": "Richesse redistribuée"
+        },
+        "actionName": {
+          "en": "Develop",
+          "fr": "Grandir"
+        }
+      },
+      {
+        "unique_id": "id_impact_13",
+        "impactName": {
+          "en": "Sustainable economy",
+          "fr": "Économie durable"
+        },
+        "actionName": {
+          "en": "Develop",
+          "fr": "Grandir"
+        }
+      },
+      {
+        "unique_id": "id_impact_14",
+        "impactName": {
+          "en": "Improved data quality",
+          "fr": "Données de qualité"
+        },
+        "actionName": {
+          "en": "See",
+          "fr": "Observer"
+        }
+      },
+      {
+        "unique_id": "id_impact_15",
+        "impactName": {
+          "en": "Enhanced scope",
+          "fr": "Portée spatiotemporelle élargie"
+        },
+        "actionName": {
+          "en": "See",
+          "fr": "Observer"
+        }
+      },
+      {
+        "unique_id": "id_impact_16",
+        "impactName": {
+          "en": "Improved predictive capabilities",
+          "fr": "Capacité prédictive améliorée"
+        },
+        "actionName": {
+          "en": "Imagine",
+          "fr": "Se projeter"
+        }
+      },
+      {
+        "unique_id": "id_impact_17",
+        "impactName": {
+          "en": "Improved uncertainty assessment",
+          "fr": "Évaluation de l'incertitude améliorée"
+        },
+        "actionName": {
+          "en": "Imagine",
+          "fr": "Se projeter"
+        }
+      }
+    ],
+    "enabler": [
+      {
+        "unique_id": "id_enabler_1",
+        "enablerName": {
+          "en": "Education",
+          "fr": "Éducation"
+        }
+      },
+      {
+        "unique_id": "id_enabler_2",
+        "enablerName": {
+          "en": "capacity building",
+          "fr": "Renforcement des capacités"
+        }
+      },
+      {
+        "unique_id": "id_enabler_3",
+        "enablerName": {
+          "en": "Technology",
+          "fr": "Technologie"
+        }
+      },
+      {
+        "unique_id": "id_enabler_4",
+        "enablerName": {
+          "en": "Respectful engagement",
+          "fr": "Engagement respectueux"
+        }
+      },
+      {
+        "unique_id": "id_enabler_5",
+        "enablerName": {
+          "en": "Commercial innovation",
+          "fr": "Innovation et commercialisation"
+        }
+      },
+      {
+        "unique_id": "id_enabler_6",
+        "enablerName": {
+          "en": "Social innovation",
+          "fr": "Innovation sociale"
+        }
+      },
+      {
+        "unique_id": "id_enabler_7",
+        "enablerName": {
+          "en": "Advocacy",
+          "fr": "Plaidoyer"
+        }
+      },
+      {
+        "unique_id": "id_enabler_8",
+        "enablerName": {
+          "en": "Interdisciplinarity",
+          "fr": "Interdisciplinarité"
+        }
+      },
+      {
+        "unique_id": "id_enabler_9",
+        "enablerName": {
+          "en": "Collaboration",
+          "fr": "Collaboration"
+        }
+      },
+      {
+        "unique_id": "id_enabler_10",
+        "enablerName": {
+          "en": "Data sharing",
+          "fr": "Mutualisation de données"
+        }
+      },
+      {
+        "unique_id": "id_enabler_11",
+        "enablerName": {
+          "en": "Adapted knowledge translation",
+          "fr": "Traduction adaptée des connaissances"
+        }
+      },
+      {
+        "unique_id": "id_enabler_12",
+        "enablerName": {
+          "en": "Policy briefs",
+          "fr": "Notes d'orientation politique"
+        }
+      },
+      {
+        "unique_id": "id_enabler_13",
+        "enablerName": {
+          "en": "Webinars",
+          "fr": "Webinaire"
+        }
+      },
+      {
+        "unique_id": "id_enabler_14",
+        "enablerName": {
+          "en": "Media engagements",
+          "fr": "Engagement méditique"
+        }
+      },
+      {
+        "unique_id": "id_enabler_15",
+        "enablerName": {
+          "en": "Contribution to gobal scientific strategies",
+          "fr": "Contribution à la stratégie scientifique"
+        }
+      },
+      {
+        "unique_id": "id_enabler_16",
+        "enablerName": {
+          "en": "Art and culture",
+          "fr": "Arts et culture"
+        }
+      },
+      {
+        "unique_id": "id_enabler_17",
+        "enablerName": {
+          "en": "Knowledge Mobilization",
+          "fr": "Mobilisation des connaissances"
+        }
+      },
+      {
+        "unique_id": "id_enabler_18",
+        "enablerName": {
+          "en": "Intersectoriality",
+          "fr": "Intersectorialité"
+        }
+      }
+    ],
+    "sdg": [
+      {
+        "unique_id": "id_sdg_1",
+        "sdgName": {
+          "en": "Poverty",
+          "fr": "Pauvreté"
+        }
+      },
+      {
+        "unique_id": "id_sdg_2",
+        "sdgName": {
+          "en": "Hunger",
+          "fr": "Faim"
+        }
+      },
+      {
+        "unique_id": "id_sdg_3",
+        "sdgName": {
+          "en": "Health",
+          "fr": "Santé"
+        }
+      },
+      {
+        "unique_id": "id_sdg_4",
+        "sdgName": {
+          "en": "Education",
+          "fr": "Éducation"
+        }
+      },
+      {
+        "unique_id": "id_sdg_5",
+        "sdgName": {
+          "en": "Gender",
+          "fr": "Genre"
+        }
+      },
+      {
+        "unique_id": "id_sdg_6",
+        "sdgName": {
+          "en": "Water",
+          "fr": "Eau"
+        }
+      },
+      {
+        "unique_id": "id_sdg_7",
+        "sdgName": {
+          "en": "Energy",
+          "fr": "Énergie"
+        }
+      },
+      {
+        "unique_id": "id_sdg_8",
+        "sdgName": {
+          "en": "Jobs",
+          "fr": "Emploi"
+        }
+      },
+      {
+        "unique_id": "id_sdg_9",
+        "sdgName": {
+          "en": "Innovation",
+          "fr": "Innovation"
+        }
+      },
+      {
+        "unique_id": "id_sdg_10",
+        "sdgName": {
+          "en": "Inequalities",
+          "fr": "Inégalités"
+        }
+      },
+      {
+        "unique_id": "id_sdg_11",
+        "sdgName": {
+          "en": "Communities",
+          "fr": "Communautés"
+        }
+      },
+      {
+        "unique_id": "id_sdg_12",
+        "sdgName": {
+          "en": "Consumption",
+          "fr": "Consommation"
+        }
+      },
+      {
+        "unique_id": "id_sdg_13",
+        "sdgName": {
+          "en": "Climate",
+          "fr": "Climat"
+        }
+      },
+      {
+        "unique_id": "id_sdg_14",
+        "sdgName": {
+          "en": "Life_water",
+          "fr": "Vie marine"
+        }
+      },
+      {
+        "unique_id": "id_sdg_15",
+        "sdgName": {
+          "en": "Life land",
+          "fr": "Vie terrestre"
+        }
+      },
+      {
+        "unique_id": "id_sdg_16",
+        "sdgName": {
+          "en": "Peace justice",
+          "fr": "Justice et paix"
+        }
+      },
+      {
+        "unique_id": "id_sdg_17",
+        "sdgName": {
+          "en": "Partnerships",
+          "fr": "Partenariat"
+        }
+      }
+    ],
+    "story": [
+      {
+        "unique_id": "id_story_1",
+        "storyName": {
+          "en": "Land-to-Sea continuum",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_2",
+        "storyName": {
+          "en": "Air-Sea-Ice exchanges",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_3",
+        "storyName": {
+          "en": "Pelagic Processes",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_4",
+        "storyName": {
+          "en": "Benthos and Sedimentary Processes",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_5",
+        "storyName": {
+          "en": "Water-column Storage and Transport",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_6",
+        "storyName": {
+          "en": "Synthesis and Uncertainty Assessment",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_7",
+        "storyName": {
+          "en": "AI Robustness",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_8",
+        "storyName": {
+          "en": "Integrating ML and Physics-based Modeling",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_9",
+        "storyName": {
+          "en": "Explainable AI and Visual Analytics",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_10",
+        "storyName": {
+          "en": "Sustainable AI",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_11",
+        "storyName": {
+          "en": "Automated monitoring and predicting impact of climate action on biodiversity",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_12",
+        "storyName": {
+          "en": "Environmental DNA Analysis",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_13",
+        "storyName": {
+          "en": "Generative AI for Climate Q&A",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_14",
+        "storyName": {
+          "en": "Octopus - Sensors for carbon, biota",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_15",
+        "storyName": {
+          "en": "Octopus - Platforms",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_16",
+        "storyName": {
+          "en": "Octopus - Communications",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_17",
+        "storyName": {
+          "en": "Octopus - Digital Twins",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_18",
+        "storyName": {
+          "en": "Octopus - Community Engagement",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_19",
+        "storyName": {
+          "en": "Measuring, Reporting, and Verifying for Alkalinity enhancement",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_20",
+        "storyName": {
+          "en": "Environmental Monitoring and Reporting for OAE/RAE",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_21",
+        "storyName": {
+          "en": "Experimental assessment of OAE/RAE impact on biogeochemical processes",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_22",
+        "storyName": {
+          "en": "Floating PBR aided m-CDR and microalgae growth",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_23",
+        "storyName": {
+          "en": "Optimization of nursery technologies for cultivation of sugar kelp",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_24",
+        "storyName": {
+          "en": "Carbon Reduction Via Algal Deposition on the Ocean Floor",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_25",
+        "storyName": {
+          "en": "Legal frameworks pertaining to Ocean-CDR: A comparative perspective",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_26",
+        "storyName": {
+          "en": "Youth and community engagement",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_27",
+        "storyName": {
+          "en": "Pathways analysis",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_28",
+        "storyName": {
+          "en": "Large Scale Carbon Sequestration/Geological Storage",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_29",
+        "storyName": {
+          "en": "Transforming Marine Biomass Carbon",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_30",
+        "storyName": {
+          "en": "Chemical Point-Source Carbon Capture",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_31",
+        "storyName": {
+          "en": "Biotic Carbon Capture and Valorization",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_32",
+        "storyName": {
+          "en": "Carbon-Neutral Water Technology",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_33",
+        "storyName": {
+          "en": "Tidal energy",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_34",
+        "storyName": {
+          "en": "TBD -  title in english",
+          "fr": "C1T1- Le développement et application de modèles et d’outils numériques"
+        }
+      },
+      {
+        "unique_id": "id_story_35",
+        "storyName": {
+          "en": "TBD -  title in english",
+          "fr": "C1T2 - Des projets pilotes visant à explorer de nouvelles méthodes de travail dans la documentation et la gestion du patrimoine maritime"
+        }
+      },
+      {
+        "unique_id": "id_story_36",
+        "storyName": {
+          "en": "TBD -  title in english",
+          "fr": "C2T1-Changements, catastrophes et résilience des communautés"
+        }
+      },
+      {
+        "unique_id": "id_story_37",
+        "storyName": {
+          "en": "TBD -  title in english",
+          "fr": "C2T2-Héritages mémoriels et identités culturelles"
+        }
+      },
+      {
+        "unique_id": "id_story_38",
+        "storyName": {
+          "en": "Youth and Ocean Climate: Literacy, Agency, and Empowerment",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_39",
+        "storyName": {
+          "en": "Art for Expression and Action",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_40",
+        "storyName": {
+          "en": "Empowerment and Public Action",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_41",
+        "storyName": {
+          "en": "Transforming Climate Policy Making and Implementation",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_42",
+        "storyName": {
+          "en": "Ocean-Climate Research Production and Mobilization",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_43",
+        "storyName": {
+          "en": "Underground drinking water",
+          "fr": "Eaux potables souterraines"
+        }
+      },
+      {
+        "unique_id": "id_story_44",
+        "storyName": {
+          "en": "Salinisation and underground water",
+          "fr": "Salinisation et eaux souterraines"
+        }
+      },
+      {
+        "unique_id": "id_story_45",
+        "storyName": {
+          "en": "Collective fishing permit",
+          "fr": "Permis de pêche collective"
+        }
+      },
+      {
+        "unique_id": "id_story_46",
+        "storyName": {
+          "en": "Food security and fisheries",
+          "fr": "Sécurité alimentaire et pêches"
+        }
+      },
+      {
+        "unique_id": "id_story_47",
+        "storyName": {
+          "en": "Seaweed and oyster co-culture",
+          "fr": "Co-culture algues et huitres"
+        }
+      },
+      {
+        "unique_id": "id_story_48",
+        "storyName": {
+          "en": "Invertebrates in the intertidal zone",
+          "fr": "Invertébrés en zone intertidale"
+        }
+      },
+      {
+        "unique_id": "id_story_49",
+        "storyName": {
+          "en": "Biodiversity conservation",
+          "fr": "Conservation de la biodiversité"
+        }
+      },
+      {
+        "unique_id": "id_story_50",
+        "storyName": {
+          "en": "Storms and coastal adaptation",
+          "fr": "Tempêtes et adaptation côtière"
+        }
+      },
+      {
+        "unique_id": "id_story_51",
+        "storyName": {
+          "en": "Dykelands in a changing climate",
+          "fr": "Adaptation des aboiteaux"
+        }
+      },
+      {
+        "unique_id": "id_story_52",
+        "storyName": {
+          "en": "Tourism and sustainable adaptation",
+          "fr": "Adaptation durable et tourisme"
+        }
+      },
+      {
+        "unique_id": "id_story_53",
+        "storyName": {
+          "en": "Law for equitable, just and sustainable action",
+          "fr": "Action equitable, juste et durable"
+        }
+      },
+      {
+        "unique_id": "id_story_54",
+        "storyName": {
+          "en": "Coastal risk management",
+          "fr": "Gestion des risques côtiers"
+        }
+      },
+      {
+        "unique_id": "id_story_55",
+        "storyName": {
+          "en": "Vulnerability of territories",
+          "fr": "Vulnérabilité des territoire"
+        }
+      },
+      {
+        "unique_id": "id_story_56",
+        "storyName": {
+          "en": "Weaving expertise for transformating",
+          "fr": "Interdisciplinarité et transformaion"
+        }
+      },
+      {
+        "unique_id": "id_story_57",
+        "storyName": {
+          "en": "Transforming Marine Biomass Carbon",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_58",
+        "storyName": {
+          "en": "Building community resilience through climate monitoring capacity building",
+          "fr": "TBD"
+        }
+      },
+      {
+        "unique_id": "id_story_59",
+        "storyName": {
+          "en": "Interdisciplinarity in TranSECT",
+          "fr": "L'interdisciplinarité dans TranSECT"
+        }
+      },
+      {
+        "unique_id": "id_story_60",
+        "storyName": {
+          "en": "How does TCA impact coastal communities ?  \nAn infographics that shows potential imapcts on a generic community (culture, economy, resilience, education,,….)",
+          "fr": "TBD"
+        }
+      },
+      {
+        "unique_id": "id_story_61",
+        "storyName": {
+          "en": "Breaking barriers to collaboration (TCA-MUN)",
+          "fr": "TBD"
+        }
+      },
+      {
+        "unique_id": "id_story_62",
+        "storyName": {
+          "en": "Carbon related activities in TCA",
+          "fr": "LE carbone dans TAC"
+        }
+      },
+      {
+        "unique_id": "id_story_63",
+        "storyName": {
+          "en": "Co-developping a research project in coastal areas which is salient for local communities",
+          "fr": "Co-développer un projet de recherche dans les zones côtières qui soit socialement pertinent pour les communautés locales"
+        }
+      },
+      {
+        "unique_id": "id_story_64",
+        "storyName": {
+          "en": "Support for the development of climate plans by communities in Eastern Quebec",
+          "fr": "Accompagnement dans l'élaboration des plans climat par les MRC"
+        }
+      },
+      {
+        "unique_id": "id_story_65",
+        "storyName": {
+          "en": "Arts-based advocacy for justice for murdered and missing Indigenous women, girls, and Two-Spirit people",
+          "fr": "Actions d'appel à la justice par les arts pour les femmes et les filles et les personnes bispirituelles autochtones assassinées et disparues"
+        }
+      },
+      {
+        "unique_id": "id_story_66",
+        "storyName": {
+          "en": "Interactive web platform for viewing TAC stories",
+          "fr": "Plateforme Web interactive de visualisation des récits TAC"
+        }
+      },
+      {
+        "unique_id": "id_story_67",
+        "storyName": {
+          "en": "The little beating heart",
+          "fr": "Le p'tit coeur qui bat"
+        }
+      },
+      {
+        "unique_id": "id_story_68",
+        "storyName": {
+          "en": "TBD",
+          "fr": "TBD"
+        }
+      },
+      {
+        "unique_id": "id_story_69",
+        "storyName": {
+          "en": "Transforming Climate Policy Making and Implementation",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_70",
+        "storyName": {
+          "en": "Ocean-Climate Research Production and Mobilization",
+          "fr": "À venir -  titre en français"
+        }
+      },
+      {
+        "unique_id": "id_story_71",
+        "storyName": {
+          "en": "Protect underground drinking water ressources",
+          "fr": "Protéger les ressources en eau douce potable"
+        }
+      },
+      {
+        "unique_id": "id_story_72",
+        "storyName": {
+          "en": "Subsurface land-sea connections in the Canadian Maritimes",
+          "fr": "Connexions souterraines terre-mer dans les Maritime"
+        }
+      },
+      {
+        "unique_id": "id_story_74",
+        "storyName": {
+          "en": "Fisheries for food security in Qikiqtarjuaq",
+          "fr": "Pêche pour la sécurité alimentaire à Qikiqtarjuaq"
+        }
+      },
+      {
+        "unique_id": "id_story_75",
+        "storyName": {
+          "en": "Socio-technical construction of resources and territories in the diversification of marine activities",
+          "fr": "Diversification des activités marines pour améliorer la résilience aux CC"
+        }
+      },
+      {
+        "unique_id": "id_story_76",
+        "storyName": {
+          "en": "Impacts of climate change on marine invertebrates of the intertidal zone",
+          "fr": "Impacts des CC sur les invertébrés marins dans la zone intertidale"
+        }
+      },
+      {
+        "unique_id": "id_story_77",
+        "storyName": {
+          "en": "Marine biodiversity conservation for increased resilience to climate change",
+          "fr": "Conservation de la biodiversité marine pour la résilience aux CC"
+        }
+      },
+      {
+        "unique_id": "id_story_78",
+        "storyName": {
+          "en": "Trajectory and resilience of coastal socioecological systems to storm events",
+          "fr": "Suivi de la résilience aux tempêtes des côtes de l’île d’Anticosti"
+        }
+      },
+      {
+        "unique_id": "id_story_79",
+        "storyName": {
+          "en": "Dykeland adaptation trajectories in a changing climate",
+          "fr": "Trajectoires d'adaptation des aboiteaux aux changements climatiques"
+        }
+      },
+      {
+        "unique_id": "id_story_80",
+        "storyName": {
+          "en": "Climate change and sustainable adaptation in coastal communities",
+          "fr": "Changements climatiques et adaptation durable dans les communautés côtières"
+        }
+      },
+      {
+        "unique_id": "id_story_81",
+        "storyName": {
+          "en": "Law for equitable, just and sustainable action",
+          "fr": "Transformer le droit pour une action juste/équitable de lutte contre les CC dans les océans"
+        }
+      },
+      {
+        "unique_id": "id_story_82",
+        "storyName": {
+          "en": "Coastal risk management",
+          "fr": "Gouvernance des risques dans les communautés côtières"
+        }
+      },
+      {
+        "unique_id": "id_story_83",
+        "storyName": {
+          "en": "Vulnerability and governance in land use planning",
+          "fr": "Vulnérabilité et gouvernance de l’aménagement du territoire"
+        }
+      },
+      {
+        "unique_id": "id_story_84",
+        "storyName": {
+          "en": "Weaving expertise for transformating",
+          "fr": "Tisser les expertises pour la transformation"
+        }
+      },
+      {
+        "unique_id": "id_story_85",
+        "storyName": {
+          "en": "The co-development of a collective fishing license with community benefits",
+          "fr": "L'élaboration collective d'un modèle innovant de permis de pêche collectif à retombées communautaires"
+        }
+      },
+      {
+        "unique_id": "id_story_87",
+        "storyName": {
+          "en": "Interdisciplinarity in TranSECT",
+          "fr": "L'interdisciplinarité dans TranSECT"
+        }
+      },
+      {
+        "unique_id": "id_story_89",
+        "storyName": {
+          "en": "Breaking barriers to full participation in TCA",
+          "fr": "Démanteler les barrières à la participation à TAC"
+        }
+      },
+      {
+        "unique_id": "id_story_90",
+        "storyName": {
+          "en": "LRP 3.3 TranSECT: Transformative adaptations to Social-Ecological Climate change Trajectories",
+          "fr": "LRP 3.3 TranSECT: Adaptations transformatrices aux trajectoires des changements\r\nclimatiques socio-écologiques"
+        }
+      },
+      {
+        "unique_id": "id_story_91",
+        "storyName": {
+          "en": "Co-developping a research project in coastal areas which is salient for local communities",
+          "fr": "Co-développer un projet de recherche dans les zones côtières qui soit socialement pertinent pour les communautés locales"
+        }
+      },
+      {
+        "unique_id": "id_story_92",
+        "storyName": {
+          "en": "Support for the development of climate plans by communities in Eastern Quebec",
+          "fr": "Accompagnement dans l'élaboration des plans climat par les MRC"
+        }
+      },
+      {
+        "unique_id": "id_story_93",
+        "storyName": {
+          "en": "Arts-based advocacy for justice for murdered and missing Indigenous women, girls, and Two-Spirit people",
+          "fr": "Actions d'appel à la justice par les arts pour les femmes et les filles et les personnes bispirituelles autochtones assassinées et disparues"
+        }
+      },
+      {
+        "unique_id": "id_story_94",
+        "storyName": {
+          "en": "Interactive web platform for viewing TCA stories",
+          "fr": "Plateforme Web interactive de visualisation des récits TAC"
+        }
+      },
+      {
+        "unique_id": "id_story_95",
+        "storyName": {
+          "en": "The little beating heart",
+          "fr": "Le p'tit coeur qui bat"
+        }
+      }
+    ]
+  }
+}
