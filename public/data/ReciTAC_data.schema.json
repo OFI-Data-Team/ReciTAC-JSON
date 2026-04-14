@@ -1,0 +1,1218 @@
+{
+  "$defs": {
+    "ClusterNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "cluster",
+          "title": "Type",
+          "type": "string"
+        },
+        "clusterId": {
+          "title": "Clusterid",
+          "type": "integer"
+        },
+        "clusterName": {
+          "minLength": 1,
+          "title": "Clustername",
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "clusterId",
+        "clusterName"
+      ],
+      "title": "ClusterNodeModel",
+      "type": "object"
+    },
+    "DisciplineNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "discipline",
+          "title": "Type",
+          "type": "string"
+        },
+        "divisionId": {
+          "title": "Divisionid",
+          "type": "integer"
+        },
+        "divisionName": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "groupId": {
+          "minLength": 1,
+          "title": "Groupid",
+          "type": "string"
+        },
+        "groupName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "divisionName_EN": {
+          "type": "string"
+        },
+        "divisionName_FR": {
+          "type": "string"
+        },
+        "groupName_EN": {
+          "type": "string"
+        },
+        "groupName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "divisionId",
+        "groupId",
+        "groupName"
+      ],
+      "title": "DisciplineNodeModel",
+      "type": "object"
+    },
+    "DivisionNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "division",
+          "title": "Type",
+          "type": "string"
+        },
+        "divisionId": {
+          "title": "Divisionid",
+          "type": "integer"
+        },
+        "divisionName": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "divisionNameShort": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "divisionName_EN": {
+          "type": "string"
+        },
+        "divisionName_FR": {
+          "type": "string"
+        },
+        "divisionNameShort_EN": {
+          "type": "string"
+        },
+        "divisionNameShort_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "divisionId",
+        "divisionNameShort"
+      ],
+      "title": "DivisionNodeModel",
+      "type": "object"
+    },
+    "EnablerNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "enabler",
+          "title": "Type",
+          "type": "string"
+        },
+        "enablerId": {
+          "minLength": 1,
+          "title": "Enablerid",
+          "type": "string"
+        },
+        "enablerName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "enablerCategory": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Enablercategory"
+        },
+        "enablerName_EN": {
+          "type": "string"
+        },
+        "enablerName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "enablerId",
+        "enablerName"
+      ],
+      "title": "EnablerNodeModel",
+      "type": "object"
+    },
+    "ImpactActionNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "impact-action",
+          "title": "Type",
+          "type": "string"
+        },
+        "actionId": {
+          "title": "Actionid",
+          "type": "integer"
+        },
+        "actionName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "actionName_EN": {
+          "type": "string"
+        },
+        "actionName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "actionId",
+        "actionName"
+      ],
+      "title": "ImpactActionNodeModel",
+      "type": "object"
+    },
+    "ImpactNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "impact",
+          "title": "Type",
+          "type": "string"
+        },
+        "impactId": {
+          "title": "Impactid",
+          "type": "integer"
+        },
+        "impactName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "actionId": {
+          "title": "Actionid",
+          "type": "integer"
+        },
+        "actionName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "impactName_EN": {
+          "type": "string"
+        },
+        "impactName_FR": {
+          "type": "string"
+        },
+        "actionName_EN": {
+          "type": "string"
+        },
+        "actionName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "impactId",
+        "impactName",
+        "actionId",
+        "actionName"
+      ],
+      "title": "ImpactNodeModel",
+      "type": "object"
+    },
+    "LinkModel": {
+      "properties": {
+        "source": {
+          "minLength": 1,
+          "title": "Source",
+          "type": "string"
+        },
+        "target": {
+          "minLength": 1,
+          "title": "Target",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "cluster",
+            "enabler",
+            "impact",
+            "lrpHub",
+            "partner",
+            "people",
+            "person-discipline",
+            "person-university",
+            "sdg",
+            "topic"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "weight": {
+          "title": "Weight",
+          "type": "number"
+        }
+      },
+      "required": [
+        "source",
+        "target",
+        "type",
+        "weight"
+      ],
+      "title": "LinkModel",
+      "type": "object"
+    },
+    "LiveGraphNodesModel": {
+      "additionalProperties": false,
+      "properties": {
+        "university": {
+          "items": {
+            "$ref": "#/$defs/UniversityNodeModel"
+          },
+          "title": "University",
+          "type": "array"
+        },
+        "division": {
+          "items": {
+            "$ref": "#/$defs/DivisionNodeModel"
+          },
+          "title": "Division",
+          "type": "array"
+        },
+        "discipline": {
+          "items": {
+            "$ref": "#/$defs/DisciplineNodeModel"
+          },
+          "title": "Discipline",
+          "type": "array"
+        },
+        "people": {
+          "items": {
+            "$ref": "#/$defs/PersonNodeModel"
+          },
+          "title": "People",
+          "type": "array"
+        },
+        "partner": {
+          "items": {
+            "$ref": "#/$defs/PartnerNodeModel"
+          },
+          "title": "Partner",
+          "type": "array"
+        },
+        "topic": {
+          "items": {
+            "$ref": "#/$defs/TopicNodeModel"
+          },
+          "title": "Topic",
+          "type": "array"
+        },
+        "topic_action": {
+          "items": {
+            "$ref": "#/$defs/TopicActionNodeModel"
+          },
+          "title": "Topic Action",
+          "type": "array"
+        },
+        "impact": {
+          "items": {
+            "$ref": "#/$defs/ImpactNodeModel"
+          },
+          "title": "Impact",
+          "type": "array"
+        },
+        "impact_action": {
+          "items": {
+            "$ref": "#/$defs/ImpactActionNodeModel"
+          },
+          "title": "Impact Action",
+          "type": "array"
+        },
+        "enabler": {
+          "items": {
+            "$ref": "#/$defs/EnablerNodeModel"
+          },
+          "title": "Enabler",
+          "type": "array"
+        },
+        "sdg": {
+          "items": {
+            "$ref": "#/$defs/SdgNodeModel"
+          },
+          "title": "Sdg",
+          "type": "array"
+        },
+        "story": {
+          "items": {
+            "$ref": "#/$defs/StoryNodeModel"
+          },
+          "title": "Story",
+          "type": "array"
+        },
+        "cluster": {
+          "items": {
+            "$ref": "#/$defs/ClusterNodeModel"
+          },
+          "title": "Cluster",
+          "type": "array"
+        },
+        "lrpHub": {
+          "items": {
+            "$ref": "#/$defs/LrpHubNodeModel"
+          },
+          "title": "Lrphub",
+          "type": "array"
+        },
+        "work_package": {
+          "items": {
+            "$ref": "#/$defs/WorkPackageNodeModel"
+          },
+          "title": "Work Package",
+          "type": "array"
+        }
+      },
+      "required": [
+        "university",
+        "division",
+        "discipline",
+        "people",
+        "partner",
+        "topic",
+        "topic_action",
+        "impact",
+        "impact_action",
+        "enabler",
+        "sdg",
+        "story",
+        "cluster",
+        "lrpHub",
+        "work_package"
+      ],
+      "title": "LiveGraphNodesModel",
+      "type": "object"
+    },
+    "LocalizedTextModel": {
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "minLength": 1,
+          "title": "En",
+          "type": "string"
+        },
+        "fr": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fr"
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "title": "LocalizedTextModel",
+      "type": "object"
+    },
+    "LrpHubNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "lrpHub",
+          "title": "Type",
+          "type": "string"
+        },
+        "lrpHubId": {
+          "minLength": 1,
+          "title": "Lrphubid",
+          "type": "string"
+        },
+        "lrpHubName": {
+          "minLength": 1,
+          "title": "Lrphubname",
+          "type": "string"
+        },
+        "clusterId": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clusterid"
+        },
+        "clusterName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clustername"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "lrpHubId",
+        "lrpHubName"
+      ],
+      "title": "LrpHubNodeModel",
+      "type": "object"
+    },
+    "PartnerNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "partner",
+          "title": "Type",
+          "type": "string"
+        },
+        "partnerId": {
+          "minLength": 1,
+          "title": "Partnerid",
+          "type": "string"
+        },
+        "partnerName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "partnerLabel": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Partnerlabel"
+        },
+        "partnerCategory": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Partnercategory"
+        },
+        "partnerInternational": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Partnerinternational"
+        },
+        "partnerName_EN": {
+          "type": "string"
+        },
+        "partnerName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "partnerId",
+        "partnerName"
+      ],
+      "title": "PartnerNodeModel",
+      "type": "object"
+    },
+    "PersonNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "person",
+          "title": "Type",
+          "type": "string"
+        },
+        "peopleId": {
+          "title": "Peopleid",
+          "type": "integer"
+        },
+        "peopleName": {
+          "minLength": 1,
+          "title": "Peoplename",
+          "type": "string"
+        },
+        "univLabel": {
+          "minLength": 1,
+          "title": "Univlabel",
+          "type": "string"
+        },
+        "groupId": {
+          "minLength": 1,
+          "title": "Groupid",
+          "type": "string"
+        },
+        "divisionId": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Divisionid"
+        },
+        "status": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "function": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "council": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Council"
+        },
+        "lrpHubId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lrphubid"
+        },
+        "status_EN": {
+          "type": "string"
+        },
+        "status_FR": {
+          "type": "string"
+        },
+        "function_EN": {
+          "type": "string"
+        },
+        "function_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "peopleId",
+        "peopleName",
+        "univLabel",
+        "groupId"
+      ],
+      "title": "PersonNodeModel",
+      "type": "object"
+    },
+    "SdgNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "sdg",
+          "title": "Type",
+          "type": "string"
+        },
+        "sdgId": {
+          "title": "Sdgid",
+          "type": "integer"
+        },
+        "sdgName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "sdgName_EN": {
+          "type": "string"
+        },
+        "sdgName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "sdgId",
+        "sdgName"
+      ],
+      "title": "SdgNodeModel",
+      "type": "object"
+    },
+    "StoryNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "story",
+          "title": "Type",
+          "type": "string"
+        },
+        "storyId": {
+          "minLength": 1,
+          "title": "Storyid",
+          "type": "string"
+        },
+        "storyName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "storyLabel": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storylabel"
+        },
+        "yearStart": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Yearstart"
+        },
+        "yearEnd": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Yearend"
+        },
+        "storyType": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storytype"
+        },
+        "wpChantierId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Wpchantierid"
+        },
+        "peopleName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Peoplename"
+        },
+        "partnerId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Partnerid"
+        },
+        "sdgId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sdgid"
+        },
+        "enablerId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Enablerid"
+        },
+        "topicId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Topicid"
+        },
+        "impactId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Impactid"
+        },
+        "impactPrimary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Impactprimary"
+        },
+        "impactSecondary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Impactsecondary"
+        },
+        "impactTertiary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Impacttertiary"
+        },
+        "storyName_EN": {
+          "type": "string"
+        },
+        "storyName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "storyId",
+        "storyName"
+      ],
+      "title": "StoryNodeModel",
+      "type": "object"
+    },
+    "TopicActionNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "topic-action",
+          "title": "Type",
+          "type": "string"
+        },
+        "actionId": {
+          "title": "Actionid",
+          "type": "integer"
+        },
+        "actionName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "actionName_EN": {
+          "type": "string"
+        },
+        "actionName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "actionId",
+        "actionName"
+      ],
+      "title": "TopicActionNodeModel",
+      "type": "object"
+    },
+    "TopicNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "topic",
+          "title": "Type",
+          "type": "string"
+        },
+        "topicId": {
+          "title": "Topicid",
+          "type": "integer"
+        },
+        "topicName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "actionId": {
+          "title": "Actionid",
+          "type": "integer"
+        },
+        "actionName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "topicName_EN": {
+          "type": "string"
+        },
+        "topicName_FR": {
+          "type": "string"
+        },
+        "actionName_EN": {
+          "type": "string"
+        },
+        "actionName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "topicId",
+        "topicName",
+        "actionId",
+        "actionName"
+      ],
+      "title": "TopicNodeModel",
+      "type": "object"
+    },
+    "UniversityNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "university",
+          "title": "Type",
+          "type": "string"
+        },
+        "univId": {
+          "title": "Univid",
+          "type": "integer"
+        },
+        "univName": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "univLabel": {
+          "minLength": 1,
+          "title": "Univlabel",
+          "type": "string"
+        },
+        "univName_EN": {
+          "type": "string"
+        },
+        "univName_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "univId",
+        "univName",
+        "univLabel"
+      ],
+      "title": "UniversityNodeModel",
+      "type": "object"
+    },
+    "WorkPackageNodeModel": {
+      "properties": {
+        "unique_id": {
+          "minLength": 1,
+          "title": "Unique Id",
+          "type": "string"
+        },
+        "type": {
+          "const": "work package",
+          "title": "Type",
+          "type": "string"
+        },
+        "tcaId": {
+          "title": "Tcaid",
+          "type": "integer"
+        },
+        "projectDescription": {
+          "$ref": "#/$defs/LocalizedTextModel"
+        },
+        "clusterId": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clusterid"
+        },
+        "clusterName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clustername"
+        },
+        "lrpHubId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lrphubid"
+        },
+        "lrpHubName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lrphubname"
+        },
+        "teamName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Teamname"
+        },
+        "wpChantierId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Wpchantierid"
+        },
+        "projectDescription_EN": {
+          "type": "string"
+        },
+        "projectDescription_FR": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unique_id",
+        "type",
+        "tcaId",
+        "projectDescription"
+      ],
+      "title": "WorkPackageNodeModel",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "nodes": {
+      "$ref": "#/$defs/LiveGraphNodesModel"
+    },
+    "links": {
+      "items": {
+        "$ref": "#/$defs/LinkModel"
+      },
+      "title": "Links",
+      "type": "array"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "generation_time": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "metadata",
+    "nodes",
+    "links"
+  ],
+  "title": "LiveGraphPayloadModel",
+  "type": "object"
+}
