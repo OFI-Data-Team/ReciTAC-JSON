@@ -621,6 +621,18 @@
           "title": "Peoplename",
           "type": "string"
         },
+        "peopleImgUrl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Peopleimgurl"
+        },
         "univLabel": {
           "minLength": 1,
           "title": "Univlabel",
@@ -1200,6 +1212,9 @@
     "metadata": {
       "type": "object",
       "properties": {
+        "imgBase": {
+          "type": "string"
+        },
         "generation_time": {
           "type": "string",
           "format": "date-time"
