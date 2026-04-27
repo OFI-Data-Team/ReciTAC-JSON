@@ -528,6 +528,45 @@
       "title": "LrpHubNodeModel",
       "type": "object"
     },
+    "MetadataModel": {
+      "properties": {
+        "imgBase": {
+          "title": "Imgbase",
+          "type": "string"
+        },
+        "json_format_version": {
+          "title": "Json Format Version",
+          "type": "integer"
+        },
+        "source_table": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Source Table",
+          "type": "array"
+        },
+        "generation_time": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Generation Time"
+        }
+      },
+      "required": [
+        "imgBase",
+        "json_format_version",
+        "source_table"
+      ],
+      "title": "MetadataModel",
+      "type": "object"
+    },
     "PartnerNodeModel": {
       "properties": {
         "unique_id": {
@@ -620,18 +659,6 @@
           "minLength": 1,
           "title": "Peoplename",
           "type": "string"
-        },
-        "peopleImgUrl": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Peopleimgurl"
         },
         "univLabel": {
           "minLength": 1,
@@ -780,6 +807,17 @@
         "storyName": {
           "$ref": "#/$defs/LocalizedTextModel"
         },
+        "storyDescription": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "storyLabel": {
           "anyOf": [
             {
@@ -816,6 +854,18 @@
           "default": null,
           "title": "Yearend"
         },
+        "storyProvince": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storyprovince"
+        },
         "storyType": {
           "anyOf": [
             {
@@ -827,6 +877,18 @@
           ],
           "default": null,
           "title": "Storytype"
+        },
+        "clusterName": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clustername"
         },
         "wpChantierId": {
           "anyOf": [
@@ -851,6 +913,18 @@
           ],
           "default": null,
           "title": "Peoplename"
+        },
+        "leads": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Leads"
         },
         "partnerId": {
           "anyOf": [
@@ -948,10 +1022,76 @@
           "default": null,
           "title": "Impacttertiary"
         },
+        "storyFacilitator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storyfacilitator"
+        },
+        "storyURL": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storyurl"
+        },
+        "storyAutor": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Storyautor"
+        },
+        "dateAdded": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dateadded"
+        },
+        "dateRemoved": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dateremoved"
+        },
         "storyName_EN": {
           "type": "string"
         },
         "storyName_FR": {
+          "type": "string"
+        },
+        "storyDescription_EN": {
+          "type": "string"
+        },
+        "storyDescription_FR": {
           "type": "string"
         }
       },
@@ -1199,6 +1339,33 @@
     }
   },
   "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "imgBase": {
+          "type": "string"
+        },
+        "json_format_version": {
+          "type": "integer"
+        },
+        "source_table": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "generation_time": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "imgBase",
+        "json_format_version",
+        "source_table"
+      ],
+      "additionalProperties": true
+    },
     "nodes": {
       "$ref": "#/$defs/LiveGraphNodesModel"
     },
@@ -1208,19 +1375,6 @@
       },
       "title": "Links",
       "type": "array"
-    },
-    "metadata": {
-      "type": "object",
-      "properties": {
-        "imgBase": {
-          "type": "string"
-        },
-        "generation_time": {
-          "type": "string",
-          "format": "date-time"
-        }
-      },
-      "additionalProperties": true
     }
   },
   "required": [
