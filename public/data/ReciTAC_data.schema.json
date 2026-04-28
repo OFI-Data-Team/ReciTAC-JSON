@@ -20,6 +20,42 @@
           "minLength": 1,
           "title": "Clustername",
           "type": "string"
+        },
+        "clusterName_EN": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clustername En"
+        },
+        "clusterName_FR": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Clustername Fr"
+        },
+        "ArchTopic": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Archtopic"
         }
       },
       "required": [
@@ -65,18 +101,6 @@
         },
         "groupName": {
           "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "divisionName_EN": {
-          "type": "string"
-        },
-        "divisionName_FR": {
-          "type": "string"
-        },
-        "groupName_EN": {
-          "type": "string"
-        },
-        "groupName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -118,18 +142,6 @@
         },
         "divisionNameShort": {
           "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "divisionName_EN": {
-          "type": "string"
-        },
-        "divisionName_FR": {
-          "type": "string"
-        },
-        "divisionNameShort_EN": {
-          "type": "string"
-        },
-        "divisionNameShort_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -172,12 +184,6 @@
           ],
           "default": null,
           "title": "Enablercategory"
-        },
-        "enablerName_EN": {
-          "type": "string"
-        },
-        "enablerName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -207,12 +213,6 @@
         },
         "actionName": {
           "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "actionName_EN": {
-          "type": "string"
-        },
-        "actionName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -246,21 +246,6 @@
         "actionId": {
           "title": "Actionid",
           "type": "integer"
-        },
-        "actionName": {
-          "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "impactName_EN": {
-          "type": "string"
-        },
-        "impactName_FR": {
-          "type": "string"
-        },
-        "actionName_EN": {
-          "type": "string"
-        },
-        "actionName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -268,8 +253,7 @@
         "type",
         "impactId",
         "impactName",
-        "actionId",
-        "actionName"
+        "actionId"
       ],
       "title": "ImpactNodeModel",
       "type": "object"
@@ -586,48 +570,6 @@
         },
         "partnerName": {
           "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "partnerLabel": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Partnerlabel"
-        },
-        "partnerCategory": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Partnercategory"
-        },
-        "partnerInternational": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Partnerinternational"
-        },
-        "partnerName_EN": {
-          "type": "string"
-        },
-        "partnerName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -704,18 +646,6 @@
           ],
           "default": null
         },
-        "council": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Council"
-        },
         "lrpHubId": {
           "anyOf": [
             {
@@ -727,18 +657,6 @@
           ],
           "default": null,
           "title": "Lrphubid"
-        },
-        "status_EN": {
-          "type": "string"
-        },
-        "status_FR": {
-          "type": "string"
-        },
-        "function_EN": {
-          "type": "string"
-        },
-        "function_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -770,12 +688,6 @@
         },
         "sdgName": {
           "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "sdgName_EN": {
-          "type": "string"
-        },
-        "sdgName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -1057,42 +969,6 @@
           ],
           "default": null,
           "title": "Storyautor"
-        },
-        "dateAdded": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Dateadded"
-        },
-        "dateRemoved": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Dateremoved"
-        },
-        "storyName_EN": {
-          "type": "string"
-        },
-        "storyName_FR": {
-          "type": "string"
-        },
-        "storyDescription_EN": {
-          "type": "string"
-        },
-        "storyDescription_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -1122,12 +998,6 @@
         },
         "actionName": {
           "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "actionName_EN": {
-          "type": "string"
-        },
-        "actionName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -1161,21 +1031,6 @@
         "actionId": {
           "title": "Actionid",
           "type": "integer"
-        },
-        "actionName": {
-          "$ref": "#/$defs/LocalizedTextModel"
-        },
-        "topicName_EN": {
-          "type": "string"
-        },
-        "topicName_FR": {
-          "type": "string"
-        },
-        "actionName_EN": {
-          "type": "string"
-        },
-        "actionName_FR": {
-          "type": "string"
         }
       },
       "required": [
@@ -1183,8 +1038,7 @@
         "type",
         "topicId",
         "topicName",
-        "actionId",
-        "actionName"
+        "actionId"
       ],
       "title": "TopicNodeModel",
       "type": "object"
@@ -1211,12 +1065,6 @@
         "univLabel": {
           "minLength": 1,
           "title": "Univlabel",
-          "type": "string"
-        },
-        "univName_EN": {
-          "type": "string"
-        },
-        "univName_FR": {
           "type": "string"
         }
       },
@@ -1273,6 +1121,17 @@
           "default": null,
           "title": "Clustername"
         },
+        "clusterNameDisplay": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
         "lrpHubId": {
           "anyOf": [
             {
@@ -1297,17 +1156,16 @@
           "default": null,
           "title": "Lrphubname"
         },
-        "teamName": {
+        "teamNameShort": {
           "anyOf": [
             {
-              "type": "string"
+              "$ref": "#/$defs/LocalizedTextModel"
             },
             {
               "type": "null"
             }
           ],
-          "default": null,
-          "title": "Teamname"
+          "default": null
         },
         "wpChantierId": {
           "anyOf": [
@@ -1320,12 +1178,6 @@
           ],
           "default": null,
           "title": "Wpchantierid"
-        },
-        "projectDescription_EN": {
-          "type": "string"
-        },
-        "projectDescription_FR": {
-          "type": "string"
         }
       },
       "required": [
