@@ -17,33 +17,7 @@
           "type": "integer"
         },
         "clusterName": {
-          "minLength": 1,
-          "title": "Clustername",
-          "type": "string"
-        },
-        "clusterName_EN": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Clustername En"
-        },
-        "clusterName_FR": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Clustername Fr"
+          "$ref": "#/$defs/LocalizedTextModel"
         },
         "ArchTopic": {
           "anyOf": [
@@ -477,6 +451,17 @@
           "minLength": 1,
           "title": "Lrphubname",
           "type": "string"
+        },
+        "teamNameShort": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocalizedTextModel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         },
         "clusterId": {
           "anyOf": [
@@ -1121,17 +1106,6 @@
           "default": null,
           "title": "Clustername"
         },
-        "clusterNameDisplay": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/LocalizedTextModel"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
-        },
         "lrpHubId": {
           "anyOf": [
             {
@@ -1155,17 +1129,6 @@
           ],
           "default": null,
           "title": "Lrphubname"
-        },
-        "teamNameShort": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/LocalizedTextModel"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null
         },
         "wpChantierId": {
           "anyOf": [
