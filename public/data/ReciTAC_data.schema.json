@@ -474,18 +474,6 @@
           ],
           "default": null,
           "title": "Clusterid"
-        },
-        "clusterName": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Clustername"
         }
       },
       "required": [
@@ -1094,18 +1082,6 @@
           "default": null,
           "title": "Clusterid"
         },
-        "clusterName": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Clustername"
-        },
         "lrpHubId": {
           "anyOf": [
             {
@@ -1117,18 +1093,6 @@
           ],
           "default": null,
           "title": "Lrphubid"
-        },
-        "lrpHubName": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Lrphubname"
         },
         "wpChantierId": {
           "anyOf": [
